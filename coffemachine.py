@@ -82,4 +82,5 @@ while True:
             payment=process_money()
             if is_payment_successful(payment,coffee_type['cost']):
                 make_coffee(choice,coffee_type['needs'])
+print("Thank you for ordering..! Have a Nice day..")                
         
