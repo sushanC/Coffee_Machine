@@ -36,7 +36,7 @@ def check_resource(order_ingredients):
         if order_ingredients[item]>ingrediants[item]:
             print(f'Sorry there is not enough{item}')
             return False
-        return True
+    return True
 
 def process_money():
     print('Please enter the money!')
@@ -66,8 +66,6 @@ def make_coffee(coffee_name,coffee_needs):
 
 while True:
     choice=input("Would you like to have(cappuccino,latte, espresso): ").lower()
-    # if choice == ['cappuccino','latte', 'espresso']:
-    #     print('Please enter valid coffee')
     if choice == "off":
         break
     elif choice == 'report':
