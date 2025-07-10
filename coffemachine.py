@@ -62,7 +62,7 @@ def make_coffee(coffee_name,coffee_needs):
     for item in coffee_needs:
         ingrediants[item] -= coffee_needs[item]
 
-    print(f'Here is your {coffee_name} ☕....!Enjoy')       
+    print(f'Here is your {coffee_name} ☕...!Enjoy')       
 
 while True:
     choice=input("Would you like to have(cappuccino,latte, espresso): ").lower()
@@ -80,5 +80,5 @@ while True:
             payment=process_money()
             if is_payment_successful(payment,coffee_type['cost']):
                 make_coffee(choice,coffee_type['needs'])
-print("Thank you for ordering..! Have a Nice day..")                
+print("Thank you for ordering..! Have a Nice day...")                
         
